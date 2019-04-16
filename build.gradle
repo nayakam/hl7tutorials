@@ -12,4 +12,10 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    //implementation 'ca.uhn.hapi:hapi:2.3'
+    implementation group: 'ca.uhn.hapi', name: 'hapi', version: '2.3'
+    implementation group: 'ca.uhn.hapi', name: 'hapi-hl7overhttp', version: '2.3'
+    implementation group: 'ca.uhn.hapi', name: 'hapi-base', version: '2.3'
+    implementation group: 'ca.uhn.hapi', name: 'hapi-structures-v21', version: '2.3'
+    implementation group: 'ca.uhn.hapi', name: 'hapi-structures-v24', version: '2.3'
 }

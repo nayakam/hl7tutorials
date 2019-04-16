@@ -166,7 +166,6 @@ public class MLLPBasedHL7ThreadedServer {
                     parsedMessage.append((char) characterReceived);
                 }
             }
-
             return parsedMessage.toString();
         }
 
@@ -201,10 +200,7 @@ public class MLLPBasedHL7ThreadedServer {
                     return token;
                 }
             }
-
             return "";
         }
-
     }
-
 }
