@@ -16,6 +16,7 @@ dependencies {
     implementation group: 'ca.uhn.hapi', name: 'hapi', version: '2.3'
     implementation group: 'ca.uhn.hapi', name: 'hapi-hl7overhttp', version: '2.3'
     implementation group: 'ca.uhn.hapi', name: 'hapi-base', version: '2.3'
-    implementation group: 'ca.uhn.hapi', name: 'hapi-structures-v21', version: '2.3'
     implementation group: 'ca.uhn.hapi', name: 'hapi-structures-v24', version: '2.3'
+    implementation 'org.slf4j:slf4j-log4j12:1.7.10'
+    implementation 'log4j:log4j:1.2.17'
 }
