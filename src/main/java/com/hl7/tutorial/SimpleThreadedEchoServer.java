@@ -43,7 +43,7 @@ public class SimpleThreadedEchoServer {
         private Socket connection;
         private int receivedMessageSize;
         private byte[] receivedByeBuffer = new byte[BUFFER_SIZE];
-        private static final int BUFFER_SIZE = 32;
+        private static final int BUFFER_SIZE = 1032;
 
         public ConnectionHandler(Socket aClientSocket) {
             connection = aClientSocket;
@@ -58,6 +58,7 @@ public class SimpleThreadedEchoServer {
                 OutputStream out = connection.getOutputStream();
 
                 receivedMessageSize = in.read(receivedByeBuffer);
+                System.out.println("Received Message: " + new String(receivedByeBuffer));
                 out.write(receivedByeBuffer, 0, receivedMessageSize);
 
                 connection.close();  // Close the socket.  We are done serving this client
