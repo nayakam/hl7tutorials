@@ -51,3 +51,4 @@ This made integration and maintenance of applications, particularly from differe
 *   [HAPI Dependencies](https://hapifhir.github.io/hapi-hl7v2/getting_started.html)  
 *   [Informatics - Radiology Workflow](https://www.youtube.com/watch?v=czApoO5N9K8) 
 *   [Introducing HL7 FHIR](https://www.hl7.org/fhir/summary.html)
+*   [HL7 Tutorial Directory](https://www.hl7soup.com/HL7Tutorials.html)
